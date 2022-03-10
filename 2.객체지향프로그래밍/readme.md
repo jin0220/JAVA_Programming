@@ -71,3 +71,21 @@
 
 ## Getter와 Setter를 사용하는 이유
 **Getter**와 **Setter**를 사용하면 메서드를 통해 접근하기 때문에, 메서드 안에서 매개변수 같이 **올바르지 않은 입력값**에 대해 사전 처리할 수 있게 **제한**하거나 **조절**할 수 있습니다.
+
+## 객체지향 설계 5원칙(SOLID)
+#### 1. SRP(Single Responsibility Principle): 단일 책임 원칙
+- 하나의 클래스는 하나의 책임만 가져야한다.
+
+#### 2. OCP(Open-Closed Principle): 개방 폐쇄 원칙
+- 소프트웨어 구성요소(컴포넌트, 클래스, 모듈, 함수)는 확장에는 열려있고, 
+변경에는 닫혀있어야 한다.
+
+#### 3. LSP(Liskov Substitution Principle): 리스코프 치환 원칙
+- 하위 클래스 및 타입들은 상위 타입들이 사용되는 곳에 대체될 수 있어야 한다.
+
+#### 4. ISP(Interfase Segragation Principle): 인터페이스 분리 원칙
+- 하나의 일반적인 인터페이스보다 구체적인 여러 개의 인터페이스가 낫다.
+
+#### 5. DIP(Dependency Inversion Principle): 의존관계 역전 원칙
+- 추상화된 것에 의존하게 만들고 구체 클래스에 의존하도록 만들지 않는다.
+=> 구현 클래스가 아니라 인터페이스에 의존
