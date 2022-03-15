@@ -17,14 +17,21 @@ public class PointApp {
 //		p1.draw();
 //		p2.draw();
 		
-		Point p = new Point(4,4);
-		p.draw();
+//		Point p = new Point(4,4);
+//		p.draw();
+//		
+//		ColorPoint cp1 = new ColorPoint("red");
+//		cp1.showInfo();
+//		
+//		ColorPoint cp2 = new ColorPoint(10,10,"blue");
+//		cp2.showInfo();
 		
-		ColorPoint cp1 = new ColorPoint("red");
-		cp1.showInfo();
+		Point a = new Point(2,3);
+		Point b = new Point(10,5);
+		Point c = new Point(2,3);
 		
-		ColorPoint cp2 = new ColorPoint(10,10,"blue");
-		cp2.showInfo();
+		System.out.println(a.equals(b));
+		System.out.println(a.equals(c));
 	}
 
 }

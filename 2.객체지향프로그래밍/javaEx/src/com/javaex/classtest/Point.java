@@ -40,4 +40,18 @@ public class Point {
 			this.setY(0);
 		}
 	}
+	
+	// equal메서드 재정의
+	public boolean equals(Object obj) {
+		Point p = ((Point)obj); //다운캐스팅
+		if(this.hashCode() == p.hashCode()) {
+			return true;
+		}
+		else if(this.x == p.x && this.y == p.y) {
+			return true;
+		}
+		else {
+			return false;
+		}
+	}
 }
